@@ -78,6 +78,12 @@
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
+  margin-bottom: 0.9rem;
+}
+
+.project-info .heading-md {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
 }
 
 .project-tag {
@@ -151,13 +157,23 @@
   }
 
   .project-image-placeholder {
-    min-height: 240px;
+    min-height: 0;
+    aspect-ratio: 16 / 10;
+    background: #020202;
+  }
+
+  .project-screenshot {
+    object-fit: contain;
+    object-position: top center;
   }
 
   .project-overlay {
     opacity: 1;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.08));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0));
     backdrop-filter: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0.9rem;
   }
 
   .project-image-placeholder:hover .project-screenshot {
@@ -176,7 +192,7 @@
 
 @media (max-width: 480px) {
   .project-image-placeholder {
-    min-height: 210px;
+    aspect-ratio: 4 / 3;
   }
 
   .project-info {

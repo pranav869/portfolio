@@ -7,8 +7,8 @@ const projects = [
     link: "https://united-turf-pro.vercel.app/",
     image: "/turf.jpg",
     tags: ["React", "GSAP", "Sports"],
-    description: "A premium booking platform for Chennai's elite sports turf. Engineered for speed and high-traffic booking sessions.",
-    results: ["Built with high-performance GSAP animations", "0.8s Average Page Load Time"],
+    description: "A premium turf-booking platform built for Chennai's sports audience. Optimized for speed and high-volume booking traffic.",
+    results: ["High-performance GSAP interactions", "Average page load time: 0.8s"],
     imageStyle: "linear-gradient(135deg, #84cc16 0%, #22c55e 100%)"
   },
   {
@@ -16,8 +16,8 @@ const projects = [
     link: "https://dental-kappa-five.vercel.app/",
     image: "/dental.jpg",
     tags: ["React", "Healthcare", "SEO"],
-    description: "A high-conversion patient booking engine for a premium dental clinic. Focused on accessibility and local SEO dominance.",
-    results: ["40% increase in online bookings", "98/100 Lighthouse Performance Score"],
+    description: "A conversion-focused website for a premium dental clinic, designed with accessibility and local SEO in mind.",
+    results: ["40% increase in online bookings", "Lighthouse performance score: 98/100"],
     imageStyle: "var(--accent-gradient)"
   },
   {
@@ -25,8 +25,8 @@ const projects = [
     link: "https://apexgym.co.in",
     image: "/apex.jpg",
     tags: ["Next.js", "Fitness", "E-commerce"],
-    description: "A dynamic membership platform with a tiered pricing engine and trainer showcase. Built for high-volume lead generation.",
-    results: ["2x growth in digital memberships", "Seamless mobile-first booking UX"],
+    description: "A scalable membership platform with tiered pricing, trainer showcases, and a lead-focused conversion flow.",
+    results: ["2x growth in digital memberships", "Smooth mobile-first booking experience"],
     imageStyle: "linear-gradient(135deg, #10b981 0%, #047857 100%)"
   }
 ];

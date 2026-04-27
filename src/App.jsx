@@ -5,7 +5,6 @@ import Results from './components/Results';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import WhyChooseMe from './components/WhyChooseMe';
-import Testimonials from './components/Testimonials';
 import CTASection from './components/CTASection';
 import Contact from './components/Contact';
 import WhatsAppWidget from './components/WhatsAppWidget';
@@ -30,7 +29,6 @@ function App() {
         <Services />
         <Projects />
         <WhyChooseMe />
-        <Testimonials />
         <CTASection />
         <Contact />
       </main>
