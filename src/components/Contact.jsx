@@ -33,7 +33,7 @@ export default function Contact() {
       <footer className="footer border-t border-glass">
         <div className="container footer-container">
           <div className="logo text-xl font-bold">Pranav<span className="text-gradient">.</span></div>
-          <p className="footer-text">© {new Date().getFullYear()} Pranav. All rights reserved.</p>
+          <p className="footer-text">"Great design is quiet. Great results are loud."</p>
         </div>
       </footer>
     </>

@@ -52,13 +52,47 @@
 }
 
 .nav-cta {
-  padding: 0.6rem 1.25rem;
-  font-size: 0.875rem;
-  box-shadow: 0 0 16px rgba(56, 189, 248, 0.2);
+  position: relative;
+  overflow: hidden;
+  padding: 0.62rem 1.3rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border: 1px solid rgba(148, 204, 255, 0.35);
+  background: linear-gradient(135deg, #36bdfa 0%, #5f95ff 55%, #7d88ff 100%);
+  color: #ffffff !important;
+  box-shadow:
+    0 8px 20px rgba(56, 189, 248, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+
+.nav-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -130%;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(110deg, transparent 0%, rgba(255, 255, 255, 0.48) 50%, transparent 100%);
+  transform: skewX(-18deg);
+  transition: left 0.45s ease;
 }
 
 .nav-cta:hover {
-  box-shadow: 0 0 28px rgba(56, 189, 248, 0.45);
+  transform: translateY(-1px) scale(1.03);
+  filter: brightness(1.06);
+  box-shadow:
+    0 12px 30px rgba(56, 189, 248, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.45);
+}
+
+.nav-cta:hover::before {
+  left: 120%;
+}
+
+.nav-cta:active {
+  transform: translateY(0) scale(1.01);
 }
 
 .mobile-menu-btn {

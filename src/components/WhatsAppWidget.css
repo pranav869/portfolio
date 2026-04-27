@@ -29,6 +29,12 @@
   box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
 }
 
+.whatsapp-icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
 .whatsapp-tooltip {
   background: var(--bg-secondary);
   border: 1px solid var(--glass-border);
@@ -105,6 +111,11 @@
   .whatsapp-button {
     width: 54px;
     height: 54px;
+  }
+
+  .whatsapp-icon {
+    width: 27px;
+    height: 27px;
   }
 
   .whatsapp-tooltip {

@@ -5,7 +5,7 @@ const projects = [
   {
     title: "United Turf Pro",
     link: "https://united-turf-pro.vercel.app/",
-    image: "/images/preview-united-turf.jpg",
+    image: "/turf.jpg",
     tags: ["React", "GSAP", "Sports"],
     description: "A premium booking platform for Chennai's elite sports turf. Engineered for speed and high-traffic booking sessions.",
     results: ["Built with high-performance GSAP animations", "0.8s Average Page Load Time"],
@@ -13,8 +13,8 @@ const projects = [
   },
   {
     title: "Smile Elite Dental",
-    link: "https://building-dental.vercel.app/",
-    image: "/images/preview-smile-elite.jpg",
+    link: "https://dental-kappa-five.vercel.app/",
+    image: "/dental.jpg",
     tags: ["React", "Healthcare", "SEO"],
     description: "A high-conversion patient booking engine for a premium dental clinic. Focused on accessibility and local SEO dominance.",
     results: ["40% increase in online bookings", "98/100 Lighthouse Performance Score"],
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "APEX Gym Platform",
     link: "https://apexgym.co.in",
-    image: "/images/preview-apex-gym.jpg",
+    image: "/apex.jpg",
     tags: ["Next.js", "Fitness", "E-commerce"],
     description: "A dynamic membership platform with a tiered pricing engine and trainer showcase. Built for high-volume lead generation.",
     results: ["2x growth in digital memberships", "Seamless mobile-first booking UX"],
