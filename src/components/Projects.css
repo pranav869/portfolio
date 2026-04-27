@@ -35,6 +35,7 @@
   min-height: 400px;
   position: relative;
   overflow: hidden;
+  background: var(--project-fallback, #020202);
 }
 
 .project-screenshot {
@@ -163,7 +164,7 @@
   }
 
   .project-screenshot {
-    object-fit: contain;
+    object-fit: cover;
     object-position: top center;
   }
 
@@ -192,7 +193,7 @@
 
 @media (max-width: 480px) {
   .project-image-placeholder {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 10;
   }
 
   .project-info {

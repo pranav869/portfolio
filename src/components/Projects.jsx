@@ -45,7 +45,7 @@ export default function Projects() {
             <div key={index} className={`project-card reveal reveal-delay-${index % 2}`}>
               <div 
                 className="project-image-placeholder"
-                style={{ background: project.imageStyle }}
+                style={{ '--project-fallback': project.imageStyle }}
               >
                 <img
                   src={project.image}

@@ -33,10 +33,6 @@ export default function Services() {
             <div className="service-icon-wrapper">{services[0].icon}</div>
             <h3 className="service-title">{services[0].title}</h3>
             <p className="service-desc">{services[0].description}</p>
-            <div className="service-feature-stat">
-              <span className="stat-number">50+</span>
-              <span className="stat-label">Sites Delivered</span>
-            </div>
           </div>
           <div className="glass-card service-card reveal reveal-delay-1">
             <div className="service-icon-wrapper">{services[1].icon}</div>
