@@ -1,0 +1,64 @@
+.cta-section {
+  padding-bottom: 50px;
+}
+
+.cta-card {
+  padding: 5rem 3rem;
+  text-align: center;
+  background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.1), transparent),
+              var(--bg-tertiary);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(56, 189, 248, 0.05), transparent 50%);
+  z-index: 0;
+}
+
+.cta-content {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.urgency-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+.cta-actions {
+  margin-top: 1rem;
+}
+
+.btn-lg {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 768px) {
+  .cta-card {
+    padding: 3rem 1.5rem;
+  }
+}

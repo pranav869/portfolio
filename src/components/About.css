@@ -1,0 +1,51 @@
+.about-section {
+  position: relative;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.mt-4 { margin-top: 1rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-6 { margin-top: 1.5rem; }
+
+.stats-container {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2.5rem;
+}
+
+.stat-box p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.about-visual {
+  position: relative;
+}
+
+.visual-card {
+  padding: 3rem;
+  background: linear-gradient(145deg, rgba(30, 30, 36, 0.6), rgba(20, 20, 25, 0.4));
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.visual-code code {
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #abb2bf;
+}
+
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

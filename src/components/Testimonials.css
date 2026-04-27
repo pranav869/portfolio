@@ -1,0 +1,39 @@
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.testimonial-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quote-icon {
+  color: rgba(56, 189, 248, 0.18);
+  width: 24px;
+  height: 24px;
+  margin-bottom: 1.25rem;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-style: normal;
+}
+
+.testimonial-author h4 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  color: var(--accent-primary);
+  margin-bottom: 0.25rem;
+}
+
+.testimonial-author p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
