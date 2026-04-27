@@ -118,6 +118,15 @@
     height: 27px;
   }
 
+  .whatsapp-button:hover {
+    transform: none;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  }
+
+  .pulse-ring {
+    display: none;
+  }
+
   .whatsapp-tooltip {
     display: none; /* Hide tooltip on small screens to avoid clutter */
   }

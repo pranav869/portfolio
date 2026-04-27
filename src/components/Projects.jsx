@@ -51,7 +51,12 @@ export default function Projects() {
                   src={project.image}
                   alt={`${project.title} website preview`}
                   className="project-screenshot"
+                  width="1200"
+                  height="800"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   loading="lazy"
+                  decoding="async"
+                  fetchPriority="low"
                   onError={(e) => { e.target.style.display = 'none'; }}
                 />
                 <div className="project-overlay">

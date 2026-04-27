@@ -41,6 +41,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Outfit', sans-serif;
   color: var(--text-primary);
@@ -226,8 +232,15 @@ button {
     --nav-height: 64px;
   }
 
+  html,
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+
   .section-padding {
     padding: 80px 0;
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 700px;
   }
 
   .container {
@@ -258,10 +271,28 @@ button {
 
   .glass-card {
     padding: 1.5rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .section-header {
     margin-bottom: 2.5rem;
+  }
+
+  .bg-mesh {
+    filter: blur(52px);
+    opacity: 0.7;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .animate-fade-in {
+    animation: none;
+    opacity: 1;
   }
 }
 
@@ -277,5 +308,19 @@ button {
   .btn {
     padding: 0.8rem 1.25rem;
     font-size: 0.95rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

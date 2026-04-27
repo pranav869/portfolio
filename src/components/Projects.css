@@ -154,6 +154,16 @@
     min-height: 240px;
   }
 
+  .project-overlay {
+    opacity: 1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.08));
+    backdrop-filter: none;
+  }
+
+  .project-image-placeholder:hover .project-screenshot {
+    transform: none;
+  }
+
   .project-info {
     padding: 1.5rem;
   }
@@ -166,7 +176,7 @@
 
 @media (max-width: 480px) {
   .project-image-placeholder {
-    min-height: 200px;
+    min-height: 210px;
   }
 
   .project-info {
