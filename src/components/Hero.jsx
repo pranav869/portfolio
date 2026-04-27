@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import './Hero.css';
 
 export default function Hero() {
@@ -44,23 +44,6 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="hero-trust delay-300">
-            <div className="trust-line">
-              <CheckCircle2 size={16} className="text-accent" />
-              <span>Worked with 20+ clients globally</span>
-              <span className="trust-divider">|</span>
-              <CheckCircle2 size={16} className="text-accent" />
-              <span>50+ projects delivered successfully</span>
-            </div>
-            
-            <div className="trust-logos">
-              <span className="logo-text">SmileElite</span>
-              <span className="logo-divider">·</span>
-              <span className="logo-text">ApexGym</span>
-              <span className="logo-divider">·</span>
-              <span className="logo-text">UnitedTurf</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
