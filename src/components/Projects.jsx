@@ -3,6 +3,15 @@ import './Projects.css';
 
 const projects = [
   {
+    title: "Lumina Interiors",
+    link: "https://interior-google.vercel.app/",
+    image: "/lumina.jpg",
+    tags: ["React", "Interior Design", "Luxury Branding"],
+    description: "A premium interior design website focused on elegant storytelling, refined typography, and high-end service positioning.",
+    results: ["Strong visual-first brand presentation", "Smooth section transitions with polished UI feel"],
+    imageStyle: "linear-gradient(135deg, #c8a77a 0%, #6b5846 100%)"
+  },
+  {
     title: "United Turf Pro",
     link: "https://united-turf-pro.vercel.app/",
     image: "/turf.jpg",
