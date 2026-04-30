@@ -7,20 +7,6 @@ export default function Hero() {
       <div className="bg-mesh"></div>
       <div className="container hero-container animate-fade-in">
         <div className="hero-content">
-          <div className="hero-avatar-wrap animate-fade-in" style={{ animationDelay: '80ms' }}>
-            <img
-              src="/profile.jpg"
-              alt="Pranav profile"
-              className="hero-avatar"
-              width="124"
-              height="124"
-              sizes="(max-width: 768px) 104px, 124px"
-              loading="eager"
-              decoding="async"
-              fetchPriority="high"
-            />
-          </div>
-
           <div className="hero-badge delay-100">
             <span className="badge-dot"></span>
             Available for new projects
